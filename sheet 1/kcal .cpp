@@ -3,8 +3,9 @@ using namespace std;
 
 int main()
 {
-    int A, B;
+    float A, B,C;
     cin >> A >> B;
-    A *= B;
-    cout << A;
+    C = B * A;
+    C /= 100;
+    cout << C;
 }

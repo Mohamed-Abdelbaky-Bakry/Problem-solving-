@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-	int N, M;
-	cin >> N >> M;
+    int N, M;
+    cin >> N >> M;
     cout  << (N/M)  ;
     return 0;
 }
